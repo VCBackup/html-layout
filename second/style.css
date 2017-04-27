@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0vh;
+}
+div{
+    background-color: white;
+    position: relative;
+}
+#left-column{
+    background-color: #4A90E2;
+    float: left;
+    width: 34%;
+    height: 100vh;
+}
+#center-column{
+    background-color: #50E3C2;
+    margin: auto;
+    width: 33%;
+    height: 100vh;
+}
+#right-column{
+    background-color: #B8E986;
+    float: right;
+    width: 34%;
+    height: 80vh;
+}
+#picture-box{
+    background-color: #D0021B;
+    color: #FFFFFF;
+    width: 34%;
+    height: 20vh;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-family: Arial;
+    font-size: 23px;
+    font-weight: 2px;
+    text-align: center;
+    padding: 75px;
+    white-space: nowrap;
+}
