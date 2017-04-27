@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0vh;
+    background-color: #EFEFEF;
+}
+header{
+    background-color: #444444;
+    height: 10vh;
+}
+#big-div{
+    background-color: #D8D8D8;
+}
+.left{
+    float: left;
+    width: 10vh;
+}
+.right{
+    float: right;
+    width: 10vh;
+}
+#center-div{
+    background-color: #EFEFEF;
+    margin: auto;
+    width: 75%;
+    height: 80vh;
+}
+#the-footer{
+    background-color: #222222;
+    height: 10vh;
+    margin: auto;
+    width: 75%;
+}
