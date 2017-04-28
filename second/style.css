@@ -11,25 +11,25 @@ div{
 #left-column{
     background-color: #4A90E2;
     float: left;
-    width: 34%;
+    width: calc(100%/3);
     height: 100vh;
 }
 #center-column{
     background-color: #50E3C2;
     margin: auto;
-    width: 33%;
+    width: calc(100%/3);
     height: 100vh;
 }
 #right-column{
     background-color: #B8E986;
     float: right;
-    width: 34%;
+    width: calc(100%/3);
     height: 80vh;
 }
 #picture-box{
     background-color: #D0021B;
     color: #FFFFFF;
-    width: 34%;
+    width: calc(100%/3);
     height: 20vh;
     position: absolute;
     bottom: 0;
